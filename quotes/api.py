@@ -1,17 +1,16 @@
 from flask import Flask, jsonify
 from .quote_service import QuoteService
 
+
 app = Flask(__name__)
 service = QuoteService()
-
-
 
 
 @app.get("/random")
 def get_quote():
     return jsonify({"quote": service.get_random_quote()})
 
-@app.get("/")
+
 @app.get("/")
 def index():
     return """
@@ -95,3 +94,4 @@ def index():
         </body>
     </html>
     """
+
