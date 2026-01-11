@@ -93,5 +93,4 @@ def index():
             </script>
         </body>
     </html>
-    """
-
+"""
