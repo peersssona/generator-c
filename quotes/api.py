@@ -5,6 +5,8 @@ app = Flask(__name__)
 service = QuoteService()
 
 
+
+
 @app.get("/random")
 def get_quote():
     return jsonify({"quote": service.get_random_quote()})
