@@ -1,9 +1,10 @@
 import argparse
-from quotes.cli import run_cli
+
 from quotes.api import app
+from quotes.cli import run_cli
 
 
-if __name__ == "__main__":
+def main():
     parser = argparse.ArgumentParser(description="Random Quote Generator")
     parser.add_argument("--mode", choices=["cli", "api"], default="cli")
     args = parser.parse_args()
@@ -12,3 +13,7 @@ if __name__ == "__main__":
         run_cli()
     else:
         app.run(host="0.0.0.0", port=5000, debug=True)
+
+
+if __name__ == "__main__":
+    main()
