@@ -25,6 +25,8 @@ Generator-C — учебный проект на Python, реализующий 
 
 Структура проекта
 
+<img width="285" height="201" alt="image" src="https://github.com/user-attachments/assets/7fa0c379-96b1-4bcd-8cf9-1012351abe35" />
+
 generator-c/
 ├── quotes/
 │ ├── api.py # Flask API и веб-интерфейс
