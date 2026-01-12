@@ -41,4 +41,33 @@ generator-c/
 ├── requirements.txt # Зависимости проекта
 └── README.md
 
+## Запуск проекта
+
+### Клонирование репозитория
+
+git clone https://github.com/peersssona/generator-c.git
+cd generator-c
+
+Создать виртуальное окружение
+python -m venv venv
+
+Активировать виртуальное окружение 
+venv\Scripts\activate
+После активации в терминале появится (venv).
+
+Установка зависимостей
+pip install -r requirements.txt
+
+Все необходимые библиотеки будут установлены в виртуальное окружение.
+
+Запуск проекта
+CLI-режим (командная строка)
+
+Генерирует случайную цитату и выводит её в терминал:
+
+python main.py --mode cli
+
+
+
+
 https://tenebrous-jaylene-supersolemnly.ngrok-free.dev/
