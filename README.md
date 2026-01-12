@@ -41,3 +41,4 @@ generator-c/
 ├── requirements.txt # Зависимости проекта
 └── README.md
 
+https://tenebrous-jaylene-supersolemnly.ngrok-free.dev/
